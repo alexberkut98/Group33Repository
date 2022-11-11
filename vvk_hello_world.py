@@ -5,3 +5,5 @@ classifier = pipeline("sentiment-analysis",
 
 classifier("Я обожаю инженерию машинного обучения!")
 ## Тут была Даша
+
+# Комментарий от Куницкого закоммиченный через VS Code
