@@ -11,7 +11,7 @@ while True:
   text_res = classifier(text_input)[0]
 
   if text_res["label"]=="NEGATIVE":
-    text_out = f"По нашему мнению это негативное высказывани. Уровень достоверности = {int(round(text_res['score']*100, 0))}%"
+    text_out = f"По нашему мнению это негативное высказываниe. Уровень достоверности = {int(round(text_res['score']*100, 0))}%"
   elif text_res["label"]=="POSITIVE":
     text_out = f"По нашему мнению это доброе высказывание. Уровень достоверности = {int(round(text_res['score']*100, 0))}%"
   elif text_res["label"]=="NEUTRAL":
