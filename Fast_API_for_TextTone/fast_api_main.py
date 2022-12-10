@@ -12,9 +12,9 @@ classifier = pipeline("sentiment-analysis",
 
 @app.get("/")
 def root():
-  return{"message": "Это практическая работа группы 33. Анализ тональности текста. Тест FastAPI приложения. Отправьте текст для оценки токсичности на: <адрес>/chektext/ методом POST"}
+  return{"message": "Это практическая работа группы 33. Анализ тональности текста. Тест FastAPI приложения. Отправьте текст для оценки токсичности на: <адрес>/checktext/ методом POST"}
 
-@app.post("/chektext/")
+@app.post("/checktext/")
 def chektext(item: Text_for_check):
   text_res = classifier(item.text)[0]
   if text_res["label"]=="NEGATIVE":
