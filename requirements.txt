@@ -1,5 +1,6 @@
 streamlit==1.15.2
 transformers[torch]==4.24.0
 fastapi==0.88.0
+fastapi.testclient
 uvicorn==0.20.0
 pytest
