@@ -1,3 +1,5 @@
+[![Tests](https://github.com/alexberkut98/Group33Repository/actions/workflows/python-app.yml/badge.svg)](https://github.com/alexberkut98/Group33Repository/actions/workflows/python-app.yml)
+
 # Group33Repository
 Групповой репозиторий 33-ей группы по дисциплине "Программная инженерия" для тренировки работы с гитхабом.
 Здесь будут последовательно добавляться файлы по практическим заданиям, редактируемые группой из 5 человек.
