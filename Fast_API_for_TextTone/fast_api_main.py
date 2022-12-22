@@ -18,7 +18,7 @@ classifier = pipeline("sentiment-analysis",
 @app.get("/")
 def root():
     """Requests to the root directory of the server"""
-    return {"message": "Это практическая работа группы 33. Анализ тональности текста. Тест FastAPI приложения. Отправьте текст дляоценки токсичности на: <адрес>/checktext/ методом POST"}
+    return {"message": "Это практическая работа группы 33. Анализ тональности текста. Тест FastAPI приложения. Отправьте текст для оценки токсичности на: <адрес>/checktext/ методом POST"}
 
 @app.post("/checktext/")
 def chektext(item: Text_for_check):
