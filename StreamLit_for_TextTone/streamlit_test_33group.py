@@ -19,7 +19,6 @@ text_input = st.text_area(
     value=""
 )
 
-
 if st.button("Оценить"):
     text_res = model(text_input)[0]
     percent = int(round(text_res["score"]*100, 0))
